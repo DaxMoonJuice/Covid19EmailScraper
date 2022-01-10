@@ -6,7 +6,7 @@ The script works as follows
 <ul>
 
 <li>Connects to an instance of Microsoft Outlook running locally via the win32com library</li> 
-<li>Looks through email folders as specified in the configuation file "site_list_prod.json"</li>
+<li>Looks through email folders as specified in the configuation file "site_list.json"</li>
 <li>Identifies email templates (Positive + Negative Results For PCR + Lateral Flow Tests, Kit Registration Emails)</li>
 <li>Extracts key fields per template</li>
 <li>Exports results to csv file</li>
@@ -26,7 +26,7 @@ The script works as follows
 
 The site_list_prod.json file is used to tell the script which outlook accounts + folders it needs to search through for Covid Test Emails.
 
-JSON is a type of text format for transferring and storing data. The site_list_prod.json file contains a list of configurations in the JSON format.
+JSON is a type of text format for transferring and storing data. The site_list.json file contains a list of configurations in the JSON format.
 
 Each of the sets of { } brackets in the list (the [ ] brackets) contains the configuration information for a single site. 
 
