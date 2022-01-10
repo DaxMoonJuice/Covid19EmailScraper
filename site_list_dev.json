@@ -1,47 +1,7 @@
  [
-        {"Site_Name": "SU Albion",
-         "Email_Account": "covid_test_automation_lancashire@outlook.com",
-         "Folder_Path": "Inbox/Service Users/SU Albion"
-         },
-        {"Site_Name": "SU Foxhills",
-         "Email_Account": "covid_test_automation_lancashire@outlook.com",
-         "Folder_Path": "Inbox/Service Users/SU Foxhills"
-         },
-        {"Site_Name": "SU Lancaster",
-         "Email_Account": "covid_test_automation_lancashire@outlook.com",
-         "Folder_Path": "Inbox/Service Users/SU Lancaster"
-         },
-        {"Site_Name": "Agency Staff",
-         "Email_Account": "covid_test_automation_lancashire@outlook.com",
-         "Folder_Path": "Inbox/Agency Staff"
-         },
-        {"Site_Name": "Albion",
-         "Email_Account": "covid_test_automation_lancashire@outlook.com",
-         "Folder_Path": "Inbox/Albion"
-         },
-        {"Site_Name": "Foxhills",
-         "Email_Account": "covid_test_automation_lancashire@outlook.com",
-         "Folder_Path": "Inbox/Foxhills"
-         },
-        {"Site_Name": "FWC",
-         "Email_Account": "covid_test_automation_lancashire@outlook.com",
-         "Folder_Path": "Inbox/FWC"
-         },
-        {"Site_Name": "Lancaster",
-         "Email_Account": "covid_test_automation_lancashire@outlook.com",
-         "Folder_Path": "Inbox/Lancaster"
-         },
-        {"Site_Name": "Lancaster",
-         "Email_Account": "covid_test_automation_lancashire@outlook.com",
-         "Folder_Path": "Inbox/Senior Managers"
-         },
-        {"Site_Name": "Cumbria Service Users",
-         "Email_Account": "covid_test_automation_lancashire@outlook.com",
-         "Folder_Path": "Inbox"
-         },
-        {"Site_Name": "Cumbria Staff",
-         "Email_Account": "covid_test_automation_cumbria@outlook.com",
-         "Folder_Path": "Staff Testing"
-         }
-
-    ]
+  {
+"Site_Name": "Reading",
+"Email_Account": "test@testington.com",
+"Folder_Path": "Reading Testing/Inbox/Factory Workers/Reading Central"
+}
+]
