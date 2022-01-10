@@ -24,13 +24,13 @@ Each of the sets of { } brackets in the list (the [ ] brackets) contains the con
 <i>[  {  
       "Site_Name": "Reading",  
     "Email_Account": "test@testington.com",  
-    "Folder_Path": "Reading Testing/Inbox/Factory Workers/Reading Central"  
+    "Folder_Path": "Inbox/Factory Workers/Reading Central"  
   }  ]</i>
 
 
 
 The <b>Site_Name</b> is the name the Site will appear as in the output results
 
-<b>Email_Account</b> is the logged in email_account containing the folder + emails (you mentioned you were signed into multiple email accounts I think)
+<b>Email_Account</b> is the logged in email_account containing the folder + emails
 
-<b>Folder_Path</b> is the path to the location of the folder. The folder path "Lancs Covid Testing/Inbox/Service Users/SU Albion" is saying to the script. The emails to process for this site are in the "SU Albion" folder inside the "Service Users" folder inside the "Inbox" folder inside the "Lancs Covid Testing" folder.
+<b>Folder_Path</b> is the path to the location of the folder. The folder path "Inbox/Factory Workers/Reading Central" is saying to the script. The emails to process for this site are in the "Reading Central" folder inside the "Factory Workers" folder inside the "Inbox" folder.
