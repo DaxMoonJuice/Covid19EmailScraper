@@ -1,4 +1,4 @@
-# Covid19EmailScraper
+# Covid19 Email Scraper
 A python script to process NHS Covid Test Emails and output results to a CSV. Built in a weekend to help out a friend
 
 The script works as follows
@@ -40,8 +40,8 @@ Each of the sets of { } brackets in the list (the [ ] brackets) contains the con
 
 
 
-The <b>Site_Name</b> is the name the Site will appear as in the output results
+The <b>Site_Name</b> is the name of the test site the email folder corresponds to.
 
-<b>Email_Account</b> is the logged in email_account containing the folder + emails
+<b>Email_Account</b> is the logged in email_account containing the folder + emails.
 
 <b>Folder_Path</b> is the path to the location of the folder. The folder path "Inbox/Factory Workers/Reading Central" is saying to the script. The emails to process for this site are in the "Reading Central" folder inside the "Factory Workers" folder inside the "Inbox" folder.
