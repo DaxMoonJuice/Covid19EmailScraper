@@ -28,7 +28,9 @@ The site_list_prod.json file is used to tell the script which outlook accounts +
 
 JSON is a type of text format for transferring and storing data. The site_list_prod.json file contains a list of configurations in the JSON format.
 
-Each of the sets of { } brackets in the list (the [ ] brackets) contains the configuration information for a single site. An example of a configuration file can be found below.
+Each of the sets of { } brackets in the list (the [ ] brackets) contains the configuration information for a single site. 
+
+An example of a configuration file can be found below.
 
 <h2>Example Configuration</h2>
 
