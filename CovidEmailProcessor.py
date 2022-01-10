@@ -297,14 +297,10 @@ def validate_site_feed(site_list):
     return site_list
 
 
-def run_script(dev):
-
-    if dev == True:
-        raw_test_sites = read_site_file("site_list_dev.json")
-    else:
-        raw_test_sites = read_site_file("site_list_prod.json")
+def run_script():
 
 
+    raw_test_sites = read_site_file("site_list.json")
     outlook = win32com.client.Dispatch('outlook.application')
     mapi = outlook.GetNamespace("MAPI")
 
@@ -438,5 +434,5 @@ if __name__ == "__main__":
         ]
     )
 
-    run_script(dev=False)
+    run_script()
     input("Programme Finshed - Press enter to close")
