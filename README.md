@@ -1,7 +1,18 @@
 # Covid19EmailScraper
-A python script to process NHS Covid Test Emails and output results to a CSV
+A python script to process NHS Covid Test Emails and output results to a CSV. Built in a weekend to help out a friend
 
-Built in a day to help out a friend
+The script works as follows
+
+<ul>
+
+<li>Connects to an instance of Microsoft Outlook running locally via the win32com library</li> 
+<li>Looks through email folders as specified in the configuation file "site_list_prod.json"</li>
+<li>Identifies email templates (Positive + Negative Results For PCR + Lateral Flow Tests, Kit Registration Emails)</li>
+<li>Extracts key fields per template</li>
+<li>Exports results to csv file</li>
+      
+</ul>
+
 
 <h1>Instructions For Use </h1>
 
@@ -13,11 +24,11 @@ Built in a day to help out a friend
 
 <h1> Configuring Script To Work With Your Outlook Folder Structure </h1>
 
-The site_list_prod.json file is used to tell the script which outlook accounts + folders it needs to search through for Covid Test Emails
+The site_list_prod.json file is used to tell the script which outlook accounts + folders it needs to search through for Covid Test Emails.
 
-JSON is a type of text format for transferring and storing data. The site_list_prod.json file contains a list of configurations in the a JSON format
+JSON is a type of text format for transferring and storing data. The site_list_prod.json file contains a list of configurations in the JSON format.
 
-Each of the sets of { } brackets in the list (the [ ] brackets) contains the configuration information for a single site.
+Each of the sets of { } brackets in the list (the [ ] brackets) contains the configuration information for a single site. An example of a configuration file can be found below.
 
 <h2>Example Configuration</h2>
 
