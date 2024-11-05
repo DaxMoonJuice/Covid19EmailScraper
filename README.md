@@ -1,7 +1,7 @@
 # Covid19 Email Scraper
 A python script to process NHS Covid Test Emails and output results to a CSV. Built in a weekend to help out a friend
 
-The script works as follows
+The script works as follows:
 
 <ul>
 
